@@ -1,36 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
-        <Button
-            android:id="@+id/button1"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/buttonTextOne"
-            ></Button>
-        <Button
-            android:id="@+id/button2"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/buttonTextTwo"
-            ></Button>
+        android:hint="Enter some Text"
+        android:inputType="text"
+    />
 
-        <EditText
-            android:id="@+id/myEditText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Enter Text"
-            >
 
-        </EditText>
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_area"
+        android:layout_marginTop="16dp"
+        android:text="Submit"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_marginTop="16dp"
+        android:text="Your input will appear here"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="@string/buttonTextOne" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="@string/buttonTextTwo" />-->
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/edit_text_id"-->
+<!--            android:hint="Enter your name"-->
+<!--            />-->
+
+
+</LinearLayout>
