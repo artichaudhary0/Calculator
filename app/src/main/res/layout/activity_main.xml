@@ -8,35 +8,59 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <!--    View & viewGroup -->
+    <!--    view is the basic building block / single ui component is know an as view -->
+    <!--    A viewGroup contains and manage multiple views
+            1 : Linear Layout :
+            2 : Relational
+            3 : Fragments
+            4 :  Constraints Layout
+            5 : Frame Layout
+    -->
 
-    <EditText
-        android:id="@+id/inputText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter some Text"
-        android:inputType="text"
-    />
+    <!--    Need of view group / layout-->
+    <!--    Linearlayout & Button :
+            A type of view group which places the children(hor,ver) by default : Horizontal
+            req :
+            Attribute :
+            1 : orientation
+            2 : Dimensions
+            3 : gravity
+    -->
+
+    <!--Title -->
 
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/submit_area"
-        android:layout_marginTop="16dp"
-        android:text="Submit"
-        />
+
+<!--    <EditText-->
+<!--        android:id="@+id/inputText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter some Text"-->
+<!--        android:inputType="text"-->
+<!--    />-->
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/result"
-        android:layout_marginTop="16dp"
-        android:text="Your input will appear here"
-        android:textSize="16sp"
-        android:textColor="#000000"
-        />
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/submit_area"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Submit"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/result"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Your input will appear here"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="#000000"-->
+<!--        />-->
 
 <!--    <LinearLayout-->
 <!--        android:layout_width="wrap_content"-->

@@ -3,4 +3,11 @@
     <string name="buttonTextOne">Calculator</string>
     <string name="buttonTextTwo">Button 2</string>
     <string name="enter_text">Enter Text</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="user_registaration">User Registaration</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_mobile_no">Enter your mobile No.</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="clear">Clear</string>
+    <string name="submit">Submit</string>
 </resources>

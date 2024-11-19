@@ -1,5 +1,6 @@
 package com.example.calculator;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
@@ -29,51 +30,32 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // binding
-        editText = findViewById(R.id.inputText);
-        submitBtn = findViewById(R.id.submit_area);
-        result = findViewById(R.id.result);
+//        editText = findViewById(R.id.inputText);
+//        submitBtn = findViewById(R.id.submit_area);
+//        result = findViewById(R.id.result);
 
 
 
         // listner
-        submitBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String data = editText.getText().toString(); // data from edit text
-
-
-                // valid input
-
-                if(data.isEmpty())
-                {
-                    editText.setError("Input field can not be empty");
-                    Toast.makeText(MainActivity.this,"Please enter data",Toast.LENGTH_SHORT).show();
-                }else {
-                    // display the input
-                    result.setText("Your input is : "+ data);
-                    Toast.makeText(MainActivity.this,"Input submitted successfully",Toast.LENGTH_SHORT).show();
-
-
-                }
-
-
-
-
-
-
-            }
-        });
-
-
-
-
-
-
-
-
-
-
-
+//        submitBtn.setOnClickListener(new View.OnClickListener() {
+//            @SuppressLint("SetTextI18n")
+//            @Override
+//            public void onClick(View v) {
+//                String data = editText.getText().toString(); // data from edit text
+//
+//
+//                // valid input
+//                if(data.isEmpty())
+//                {
+//                    editText.setError("Input field can not be empty");
+//                    Toast.makeText(MainActivity.this,"Please enter data",Toast.LENGTH_SHORT).show();
+//                }else {
+//                    // display the input
+//                    result.setText("Your input is : "+ data);
+//                    Toast.makeText(MainActivity.this,"Input submitted successfully",Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
 
 //        Button button = findViewById(R.id.button1);
 //        EditText text = findViewById(R.id.edit_text_id);

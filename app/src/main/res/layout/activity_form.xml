@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Form">
+
+    <!--Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_registaration"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        />
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        />
+
+
+    <!-- Phone No -->
+    <EditText
+        android:id="@+id/userPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_mobile_no"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        tools:ignore="TextFields"/>
+
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        tools:ignore="TextFields"/>
+
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="16dp">
+
+        <!-- submit button-->
+
+        <Button
+            android:id="@+id/submitButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:text="@string/submit"
+            app:cornerRadius="24dp"
+            android:textColor="@color/white"
+            tools:ignore="Suspicious0dp" />
+
+        <!-- clear button-->
+        <Button
+            android:id="@+id/clearButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:text="@string/clear"
+            app:cornerRadius="24dp"
+            android:textColor="@color/white"
+            tools:ignore="Suspicious0dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
