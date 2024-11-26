@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/newBorderBtn">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/white"/>
+                <corners android:radius="20dp"/>
+            </shape>
+
+    </item>
+
+    <item android:id="@+id/btnContent">
+        <shape android:shape="rectangle">
+
+            <solid android:color="@color/cardview_dark_background"/>
+            <corners android:radius="20dp"/>
+            <stroke android:color="@color/white" android:width="2px"/>
+        </shape>
+    </item>
+</layer-list>

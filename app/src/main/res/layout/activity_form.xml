@@ -6,7 +6,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     tools:context=".Form">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startApp"
+        android:background="@drawable/rounded_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+        <View
+            android:layout_width="350dp"
+            android:layout_height="60dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start App"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/clickHere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="110dp"
+                    android:background="@color/cardview_dark_background"
+                    android:text="Click here"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/right_arrow" />
+
+
+            </LinearLayout>
+
+    </FrameLayout>
+
+<!--    <Button-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginLeft="180dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="oval"-->
+<!--        android:textColor="#388e3c"-->
+<!--        android:background="@drawable/rounded_btn"/>-->
+
+<!--    <Button-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginLeft="180dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:backgroundTintMode="src_over"-->
+<!--        android:text="rectangle"-->
+<!--        android:textColor="#FFFF"-->
+<!--        android:backgroundTint="@null"-->
+<!--        android:background="@drawable/rounded_btn"/>-->
 
 
     <!--
@@ -14,7 +81,49 @@
         ImageView
         ImageButton
         Icon
+
+        Edittext
+        Edittext In Details
+        Types of Button
+            1 : Regular Button.
+        Custom Shape Creation
+        Custom Button
      -->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/regularBtn"-->
+<!--        android:text="@string/click_me"-->
+<!--        />-->
+
+<!--    <ImageButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/download"-->
+<!--        android:id="@+id/imageExampleBtn"-->
+<!--        />-->
+
+<!--    <ToggleButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <Switch-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/customBtn"-->
+<!--        android:background="@drawable/rounded_btn"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="@string/custom"-->
+<!--        tools:ignore="Suspicious0dp" />-->
+
+
+
 
     <!--Title -->
     <TextView

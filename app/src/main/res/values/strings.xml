@@ -11,4 +11,6 @@
     <string name="clear">Clear</string>
     <string name="submit">Submit</string>
     <string name="this_is_a_image_of_a_person">This is a image of a person</string>
+    <string name="click_me">Click Me</string>
+    <string name="custom">Custom</string>
 </resources>

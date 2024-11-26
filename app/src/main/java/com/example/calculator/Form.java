@@ -133,6 +133,7 @@ public class Form extends AppCompatActivity {
                 i.setData(Uri.parse(url)); // => Uri => url=string
                 startActivity(i);
             }
+
         });
     }
 
